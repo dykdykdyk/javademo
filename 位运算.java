@@ -24,6 +24,11 @@ public class test {
         for(int i :index){
         	tel+=arr[i];
         }
+		byte b =(byte) 130;
+		System.out.println(b);
+		int a =b >=0?b:256+b;
+		int c =b &0xff;//将B转换成无符号型进行&运算
+		System.out.println(c);
         int b =4 ,a, c;
         for(int i=0;i<10;i++){ 
         	b=22 | 1;//  或   运算 转换成二进制，只要有一个为1  都为1   
